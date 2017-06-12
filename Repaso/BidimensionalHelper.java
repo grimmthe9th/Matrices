@@ -27,4 +27,23 @@ public class BidimensionalHelper {
 			}	
 		}
 	}
-}
+
+		public int buscarAlumnoPorNombre( String[] nombresAlumnos, String nombre ){
+			
+			int posicion = 0;
+			
+			for (int i = 0; i < nombresAlumnos.length; i++) {
+				
+				if ( nombresAlumnos[ i ].equalsIgnoreCase( nombre ) ) {
+					posicion = i;
+				}
+			}
+			
+			return posicion;
+			
+		}
+		
+		
+		
+		}
+

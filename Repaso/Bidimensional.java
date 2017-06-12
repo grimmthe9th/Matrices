@@ -24,15 +24,17 @@ public class Bidimensional {
 		*/
 		for (int i = 0; i < 2; i++) {
 			
-			for (int j = 0; j < 3; j++) {
-				System.out.println(ejemplo[i][j]+" Este es el contenido de la posicion "+ i +"---"+j);
+				for (int j = 0; j < 3; j++) {
+					System.out.println(ejemplo[i][j]+" Este es el contenido de la posicion "+ i +"---"+j);
+				}
+			}
+				for(int[]x : ejemplo){
+					for(int y : x){
+						System.out.println(y);			
 			}
 		}
-	for(int[]x : ejemplo){
-		for(int y : x){
-            System.out.println(y);			
-		}
-	}
 	
 	}
+
 }
+
